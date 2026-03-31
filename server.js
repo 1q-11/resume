@@ -1,7 +1,7 @@
 // 引入express框架，启动本地服务
 const express = require('express');
 const app = express();
-const port = 3000; // 本地服务端口，访问地址：http://localhost:3000
+const port = process.env.PORT || 3000; // 支持环境变量 PORT，用于部署平台
 // 新增：引入打开浏览器的模块（Node.js内置，无需额外安装）
 const { exec } = require('child_process');
 
