@@ -30,7 +30,7 @@ export default async function handler(req, res) {
           new Paragraph({
             children: [
               new TextRun({ text: "求职意向：", bold: true }),
-              new TextRun({ text: "Java 开发实习生、前端开发实习生、软件开发助理、技术支持" })
+              new TextRun({ text: "Java 开发工程师、前端开发工程师、软件开发助理、AI智能工程师" })
             ]
           }),
           new Paragraph({ text: "" }), // 空行分隔
